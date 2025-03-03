@@ -25,7 +25,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     const errorMessage = document.getElementById("errorMessage");
 
     if (userId === correctUserId && password === correctPassword) {
-        window.location.href = "index.html"; // Change to your actual website
+        window.location.href = "home.html"; // Change to your actual website
     } else {
         errorMessage.textContent = "Invalid User ID or Password!";
     }

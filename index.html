@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+    <!-- Top Header -->
+    <header>
+        <nav class="navbar">
+            <i class="fas fa-bars"></i>
+            <div class="icons">
+                <i class="fas fa-envelope"></i><span class="badge">5</span>
+                <i class="fas fa-box"></i>
+                <a href="login.html"> <button class="logout">Log Out</button></a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Search Bar -->
+    <div class="search-bar">
+        <input type="text" placeholder="Hi, I'm Erica. How can I help?">
+        <i class="fas fa-comments"></i>
+    </div>
+
+     <!-- Dashboard -->
+     <main>
+        <div class="dashboard"> 
+            <h2>Hello,  Violet </h2>
+
+            <!-- Bank of America Life Plan -->
+            <div class="card">
+                <h3>Bank of America Life Plan®</h3>
+                <p>Your next steps are ready. Let's go!</p>
+            </div>
+
+            <!-- My Rewards -->
+            <div class="card">
+                <h3>My Rewards</h3>
+            </div>
+
+    <!-- Banking Section -->
+    <main>
+        <div class="dashboard">
+            <h3>Banking</h3>
+            <div class="banking">
+                <div class="bank-card">
+                    <h4>Bank of America</h4><img src="download.jpg" alt="Bank of America">
+                </div>
+                <div> <p><b>FDIC</b> - Insured & backed by the full faith and credit of the U.S. Government</p></div>
+
+                <div class="account">
+                    <span>House Account</span>
+                    <span class="amount">$1,000.00</span>
+                </div>
+                <div class="account">
+                    <span>Fun Time</span>
+                    <span class="amount">$8,920.92</span>
+                </div>
+                <div><p class="red">NB: Acc temporarily locked!</p></div>
+            </div>
+
+            <!-- Transaction History -->
+            <h3>Recent Transactions</h3>
+            <p>Provided by Bank of America</p>
+            <div class="transactions">
+                <div class="transaction">
+                    <p class="processing">completed</p>
+                    <p>CHECKCARD ADVANCE 02/08 PAYBIS PL WARSAW</p>
+                    <p class="negative">-$1,100.00 <span class="balance">$9,500.92</span></p>
+                </div>
+
+                <div class="transaction">
+                    <p class="processing">completed</p>
+                    <p>CHECKCARD STARBUCKS STORE 1 ROSEVILLE CA ON 02/06</p>
+                    <p class="negative">-$2,000.90 <span class="balance">$7,500.92</span></p>
+                </div>
+
+                <div class="transaction">
+                    <p class="processing">completed</p>
+                    <p>Zelle Transfer Conf# 99AXMY5Z9; ANGEL MARTINEZ LEON</p>
+                    <p class="positive">$3,000.00 <span class="balance">$10,500.92</span></p>
+                </div>
+
+                <div class="transaction">
+                    <p>Feb 7, 2025</p>
+                    <p>Paybis 02/07 PURCHASE US</p>
+                    <p class="negative">-$1,580.00 <span class="balance">$8,920.92</span></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Bottom Navigation -->
+    <footer>
+        <div class="nav">
+            <a href="#" class="active"><i class="fas fa-dollar-sign"></i> Accounts</a>
+            <a href="#"><i class="fas fa-exchange-alt"></i> Pay & Transfer</a>
+            <a href="#"><i class="fas fa-file-invoice"></i> Deposit Checks</a>
+            <a href="#"><i class="fas fa-chart-line"></i> Invest</a>
+        </div>
+    </footer>
+
+</body>
+</html>
